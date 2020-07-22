@@ -1,0 +1,4 @@
+java -jar antlr-4.7.2-complete.jar -Dlanguage=Python3 C_Grammar.g4 -visitor
+python3 c2mips.py c_prog mips_prog
+dot ./dotfiles/mips_prog_AST.dot -Tpng -o ./dotfiles/mips_prog_AST.png
+dot ./dotfiles/mips_prog_SymbolTable.dot -Tpng -o ./dotfiles/mips_prog_SymbolTable.png

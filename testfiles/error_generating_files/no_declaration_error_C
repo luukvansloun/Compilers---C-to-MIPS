@@ -1,0 +1,7 @@
+// Returns an error, because a wasn't declared
+
+int main() {
+	int b = a + 3;
+
+	return 0;
+}

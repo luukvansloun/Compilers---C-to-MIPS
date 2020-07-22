@@ -1,0 +1,13 @@
+// Non-void function test() does not contain a return statement, which causes an error
+
+#include <stdio.h>
+
+int test() {
+	int b = 10;
+}
+
+int main() {
+	int a = 2;
+
+	return 0;
+}
